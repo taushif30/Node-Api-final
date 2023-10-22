@@ -446,7 +446,7 @@ const sports = [
 ]
 
 
-const dummyData = [
+const dumyData = [
     { 
         id : 1,
         cat : 'Bollywood',
@@ -887,4 +887,4 @@ const dummyData = [
         }
     ]
 
-    module.exports={dummyData,bollywood,hollywood,sports,technology,food}
+    module.exports={dumyData,bollywood,hollywood,sports,technology,food}
