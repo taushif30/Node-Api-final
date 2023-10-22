@@ -2,7 +2,7 @@ const express = require("express");
 const dataRouter = require("./routing/dataRouting");
 const app = express();
 
-app.use("/api",dataRouter)
+app.use(dataRouter)
 app.get("/",(req,res)=>{
     res.send("Server : Home Page")
 })
